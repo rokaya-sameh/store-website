@@ -17,6 +17,7 @@ export default function Nav() {
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/pokie">Pokie</Link></li>
           <li><Link to="/Meals">Meals</Link></li>
+          <li><Link to="/ChangeContent">ChangeContent</Link></li>
         </ul>
       </nav>
       <button 

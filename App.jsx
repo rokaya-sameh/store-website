@@ -13,6 +13,7 @@ import Pokie from './Pokie'
 import Meals from './Meals'
 import SingleMeal from './SingleMeal'
 import HomesSinglePage from './singleHome'
+import ChangeContent from './ChangeContent'
 
 
 
@@ -36,6 +37,8 @@ function App() {
       <Route path='/Product/:id' element={<ProductSinglePage/>}></Route>
       <Route path='/Meals/:id' element={<SingleMeal/>}></Route>
       <Route path='/Home/:id' element={<HomesSinglePage/>}></Route>
+      <Route path='/ChangeContent' element={<ChangeContent/>}></Route>
+      
       
      </Routes>
     
